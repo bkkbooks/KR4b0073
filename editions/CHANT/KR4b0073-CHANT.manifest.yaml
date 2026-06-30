@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR4b0073/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4b0073/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 溫子昇集二卷
+  identifiers:
+    krp: KR4b0073
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0073.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0073_001-CHANT.yaml, hash: 'sha256:cd17c8c3fc50a3a0634a31a2052aee341013452276a5b709867d7dade4fc7f5f'}
+  - {seq: 2, filename: KR4b0073_002-CHANT.yaml, hash: 'sha256:1c2805315fc802c76748042b8c387d95ee82b46cf2a1bae75e5b09c76e5ddf1a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0073_001-CHANT.markers.yaml, hash: 'sha256:13fea4283dce33e3b1beb2cf624a6ddde2163dd26df3b7acf0e0217b6c08e4e8'}
+  - {seq: 2, role: markers, filename: assets/KR4b0073_002-CHANT.markers.yaml, hash: 'sha256:b97f91872732906373af4d6f0da94215fa4dd2889460f933e6f79af3d1164f51'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0073_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 520
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0073_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 6464
+  label: 卷二
+  type: section
+  level: 1
+hash: sha256:3a84f89bc6d1925f203ca1cf02da94aa7d26a50ebcebc0c67f056440ad279312
